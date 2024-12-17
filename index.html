@@ -8,26 +8,31 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            scroll-behavior: smooth; /* Smooth scrolling effect */
+            scroll-behavior: smooth; /* Smooth scrolling */
             background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
+
+        /* Centered Fake Login Section */
         .login-container {
-            background: rgba(255, 255, 255, 0.1); /* Transparent background */
+            background: rgba(255, 255, 255, 0.2);
             backdrop-filter: blur(10px);
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             width: 350px;
             text-align: center;
-            margin: 50px auto;
+            margin: 100px auto;
         }
+
         .login-container h2 {
             margin-bottom: 20px;
-            color: #000;
+            color: black;
             font-size: 28px;
+            font-weight: bold;
         }
+
         .login-container input {
             width: 100%;
             padding: 12px;
@@ -36,6 +41,7 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
         .login-container a {
             display: inline-block;
             background-color: #007bff;
@@ -44,20 +50,23 @@
             padding: 12px 20px;
             border-radius: 5px;
             font-size: 18px;
-            margin-top: 10px;
         }
+
         .login-container a:hover {
             background-color: #0056b3;
         }
+
+        /* Comptech Section */
         #comptech {
-            margin-top: 200px;
-            background: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
             padding: 40px;
-            text-align: center;
             border-radius: 12px;
-            width: 80%;
+            text-align: center;
             margin: 50px auto;
+            width: 80%;
         }
+
     </style>
 </head>
 <body>
@@ -67,88 +76,6 @@
         <form>
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
-            <!-- Button to scroll to Comptech Section -->
-            <a href="#comptech">Login</a>
-        </form>
-    </div>
-
-    <!-- Comptech Section -->
-    <div id="comptech">
-        <h2>Welcome to Comptech</h2>
-        <p>This is the Comptech section of the page.</p>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake Login</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            scroll-behavior: smooth; /* Smooth scrolling effect */
-            background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-        }
-        .login-container {
-            background: rgba(255, 255, 255, 0.1); /* Transparent background */
-            backdrop-filter: blur(10px);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            width: 350px;
-            text-align: center;
-            margin: 50px auto;
-        }
-        .login-container h2 {
-            margin-bottom: 20px;
-            color: #000;
-            font-size: 28px;
-        }
-        .login-container input {
-            width: 100%;
-            padding: 12px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .login-container a {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        .login-container a:hover {
-            background-color: #0056b3;
-        }
-        #comptech {
-            margin-top: 200px;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 40px;
-            text-align: center;
-            border-radius: 12px;
-            width: 80%;
-            margin: 50px auto;
-        }
-    </style>
-</head>
-<body>
-    <!-- Fake Login Section -->
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <!-- Button to scroll to Comptech Section -->
             <a href="#comptech">Login</a>
         </form>
     </div>
