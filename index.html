@@ -9,15 +9,12 @@
             margin: 0;
             font-family: Arial, sans-serif;
             scroll-behavior: smooth; /* Smooth scrolling */
-            background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
+            background-color: #f9f9f9;
         }
 
-        /* Centered Fake Login Section */
+        /* Login Section */
         .login-container {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
+            background: #fff;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -28,18 +25,15 @@
 
         .login-container h2 {
             margin-bottom: 20px;
-            color: black;
-            font-size: 28px;
-            font-weight: bold;
+            color: #000;
         }
 
         .login-container input {
             width: 100%;
-            padding: 12px;
+            padding: 10px;
             margin: 10px 0;
             border: 1px solid #ddd;
             border-radius: 5px;
-            font-size: 16px;
         }
 
         .login-container a {
@@ -47,42 +41,36 @@
             background-color: #007bff;
             color: white;
             text-decoration: none;
-            padding: 12px 20px;
+            padding: 10px 20px;
             border-radius: 5px;
-            font-size: 18px;
-        }
-
-        .login-container a:hover {
-            background-color: #0056b3;
         }
 
         /* Comptech Section */
         #comptech {
-            background-color: rgba(0, 0, 0, 0.8);
+            margin-top: 50px;
+            background-color: #444;
             color: white;
             padding: 40px;
-            border-radius: 12px;
             text-align: center;
-            margin: 50px auto;
+            border-radius: 12px;
             width: 80%;
+            margin: 50px auto;
         }
-
     </style>
 </head>
 <body>
     <!-- Fake Login Section -->
     <div class="login-container">
-        <h2>Fake Login</h2>
+        <h2>Login</h2>
         <form>
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
-            <a href="#comptech">Login</a>
+            <!-- Button to Scroll to Comptech -->
+            <a href="#Comptech">Login</a>
         </form>
     </div>
 
-    <!-- Comptech Section -->
-    <div id="Comptech">
-     
-    </div>
+
+
 </body>
 </html>
